@@ -90,52 +90,58 @@ export const Pricing: React.FC = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto mb-20">
                     <PackageCard
-                        title="Start"
-                        subtitle="Para quem ainda está invisível no Google."
-                        price="R$ 259"
-                        functionText="Porta de entrada para presença local."
-                        features={[
-                            "Criação / otimização do Google Maps",
-                            "Verificação do perfil",
-                            "Configuração completa (NAP, categorias, texto)",
-                            "5 fotos otimizadas"
-                        ]}
-                        ctaText="Começar Agora"
-                        href="https://wa.me/5521972265396?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20Plano%20Start."
-                    />
-
-                    <PackageCard
-                        title="Growth"
-                        subtitle="Para quem já recebe visitas, mas não converte."
-                        price="R$ 499"
-                        originalPrice="R$ 999"
-                        functionText="Resolver o gargalo de conversão online."
+                        title="Launch"
+                        subtitle="Para quem quer validar ou lançar com presença de alto nível."
+                        price="R$ 690"
+                        originalPrice="R$ 990"
+                        functionText="Colocar sua oferta no ar com autoridade e conversão imediata."
                         features={[
                             "Landing page profissional (1 página)",
-                            "Copy orientada à conversão",
-                            "CTA para WhatsApp",
-                            "Integração com domínio/hospedagem"
+                            "Copywriting estratégico orientado à conversão",
+                            "Design 100% responsivo mobile-first",
+                            "Integração direta com WhatsApp / Checkout",
+                            "Domínio (.com.br) e Hospedagem inclusos (1º ano)",
+                            "Entrega expressa em até 3 dias"
                         ]}
-                        ctaText="Aumentar Conversão"
-                        href="https://wa.me/5521972265396?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20Plano%20Growth."
+                        ctaText="Começar com Launch"
+                        href="https://wa.me/5521972265396?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20Plano%20Launch%20de%20R%24%20690."
                     />
 
                     <PackageCard
-                        title="Local Pro"
-                        subtitle="Aqui está o ouro. Aquisição completa de clientes."
-                        price="R$ 699"
-                        originalPrice="R$ 1.398"
+                        title="Conversion Pro"
+                        subtitle="O padrão ouro para quem investe em tráfego e quer retorno máximo."
+                        price="R$ 1.190"
+                        originalPrice="R$ 1.990"
                         isPopular={true}
-                        functionText="Dominação local e aquisição constante."
+                        functionText="Maximizar conversão de anúncios e fechar vendas constantes."
                         features={[
-                            "Google Maps otimizado",
-                            "Landing page de alta conversão",
-                            "Integração Maps → Landing → WhatsApp",
-                            "Texto alinhado à busca local",
-                            "Configuração de eventos básicos"
+                            "Tudo do plano Launch incluso",
+                            "Página de Obrigado / Confirmação personalizada",
+                            "Configuração avançada de Pixel (Meta, Google)",
+                            "Animações e interações Brutalistas exclusivas",
+                            "Copywriting persuasivo focado em quebra de objeções",
+                            "30 dias de suporte e ajustes pós-lançamento"
                         ]}
-                        ctaText="Pegar o Ouro"
-                        href="https://wa.me/5521972265396?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20Plano%20Local%20Pro."
+                        ctaText="Escolher Conversion Pro"
+                        href="https://wa.me/5521972265396?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20Plano%20Conversion%20Pro%20de%20R%24%201.190."
+                    />
+
+                    <PackageCard
+                        title="Scale"
+                        subtitle="Para marcas e infoprodutores que precisam de escala e funil robusto."
+                        price="R$ 1.890"
+                        originalPrice="R$ 2.990"
+                        functionText="Estrutura completa de autoridade para operações consolidadas."
+                        features={[
+                            "Tudo do Conversion Pro incluso",
+                            "Estrutura multi-páginas ou funil duplo de alta conversão",
+                            "Integração com CRM, e-mail marketing ou Webhooks",
+                            "Testes de variações de headline (A/B Ready)",
+                            "Otimização extrema de carregamento e Core Web Vitals",
+                            "Consultoria estratégica de arquitetura de oferta"
+                        ]}
+                        ctaText="Escalar meu Negócio"
+                        href="https://wa.me/5521972265396?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20Plano%20Scale%20de%20R%24%201.890."
                     />
                 </div>
 
@@ -151,15 +157,19 @@ export const Pricing: React.FC = () => {
                                 Altamente Recomendado
                             </div>
                             <h3 className="text-2xl md:text-3xl font-black uppercase mb-2">
-                                Manutenção Local Pro
+                                Vexis Care & Performance
                             </h3>
+                            <p className="text-gray-400 font-mono text-xs mb-4">
+                                Para páginas que não podem parar e precisam evoluir constantemente.
+                            </p>
 
                             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 font-mono text-xs text-gray-400">
-                                <li className="flex items-center gap-2"><div className="w-1 h-1 bg-neon"></div> Atualizações Google Maps</li>
-                                <li className="flex items-center gap-2"><div className="w-1 h-1 bg-neon"></div> Posts mensais</li>
-                                <li className="flex items-center gap-2"><div className="w-1 h-1 bg-neon"></div> Resposta a avaliações</li>
-                                <li className="flex items-center gap-2"><div className="w-1 h-1 bg-neon"></div> Ajustes na landing</li>
-                                <li className="flex items-center gap-2"><div className="w-1 h-1 bg-neon"></div> Relatório simples</li>
+                                <li className="flex items-center gap-2"><div className="w-1 h-1 bg-neon"></div> Hospedagem em CDN global ultra-rápida</li>
+                                <li className="flex items-center gap-2"><div className="w-1 h-1 bg-neon"></div> Monitoramento e segurança 24/7</li>
+                                <li className="flex items-center gap-2"><div className="w-1 h-1 bg-neon"></div> Até 2 alterações mensais (copy, ofertas)</li>
+                                <li className="flex items-center gap-2"><div className="w-1 h-1 bg-neon"></div> Manutenção de pixels e links ativos</li>
+                                <li className="flex items-center gap-2"><div className="w-1 h-1 bg-neon"></div> Otimização contínua de velocidade</li>
+                                <li className="flex items-center gap-2"><div className="w-1 h-1 bg-neon"></div> Suporte direto prioritário via WhatsApp</li>
                             </ul>
                         </div>
                         <div className="text-center md:text-right">
@@ -167,21 +177,21 @@ export const Pricing: React.FC = () => {
                                 <span className="text-sm font-mono text-gray-500 block uppercase">Apenas</span>
                                 <div className="flex flex-col">
                                     <span className="text-sm font-mono text-gray-500 line-through decoration-neon/60 decoration-2">
-                                        R$ 196
+                                        R$ 297
                                     </span>
                                     <div>
-                                        <span className="text-4xl font-black text-neon">R$ 98</span>
+                                        <span className="text-4xl font-black text-neon">R$ 147</span>
                                         <span className="text-sm font-mono text-gray-500 uppercase">/ mês</span>
                                     </div>
                                 </div>
                             </div>
                             <a
-                                href="https://wa.me/5521972265396?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20Manuten%C3%A7%C3%A3o%20Mensal%20de%20R%24%2098."
+                                href="https://wa.me/5521972265396?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20plano%20Vexis%20Care%20de%20R%24%20147%2Fm%C3%AAs."
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-block border-2 border-neon text-neon px-6 py-2 font-bold text-xs uppercase hover:bg-neon hover:text-black transition-all"
                             >
-                                Saber Mais
+                                Assinar Vexis Care
                             </a>
                         </div>
                     </div>

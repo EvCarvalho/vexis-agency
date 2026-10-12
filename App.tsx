@@ -19,7 +19,7 @@ const App: React.FC = () => {
       <nav className="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer group">
-            <img src="/logo.png" alt="Vexis Agency logo landing pages Niterói RJ" className="h-10 w-10 object-contain group-hover:scale-110 transition-transform" />
+            <img src="/logo.png" alt="Vexis Agency logo landing pages de alta conversão" className="h-10 w-10 object-contain group-hover:scale-110 transition-transform" />
             <div className="text-2xl font-black tracking-tighter uppercase">
               VEXIS <span className="text-neon transition-colors group-hover:text-white">AGENCY</span>
             </div>

@@ -12,8 +12,8 @@ export const FAQ: React.FC = () => {
             answer: "Sim! Oferecemos 1 ano de domínio (.com.br) e hospedagem profissional incluídos no valor da sua Landing Page."
         },
         {
-            question: "Vocês atendem em todo o Brasil?",
-            answer: "Sim, atendemos clientes em todo o Brasil, com foco especial em Niterói e Rio de Janeiro para clientes locais."
+            question: "Vocês atendem clientes em qualquer região ou exterior?",
+            answer: "Sim! Atendemos clientes em todo o Brasil e no exterior. Todo o nosso processo de desenvolvimento, alinhamento e suporte é 100% digital, ágil e transparente."
         },
         {
             question: "A Landing Page é otimizada para o Google?",

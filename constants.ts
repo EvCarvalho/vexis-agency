@@ -2,12 +2,12 @@ export const WHATSAPP_LINK = "https://wa.me/5521972265396?text=Quero%20minha%20l
 export const EMAIL = "contato@vexisone.com";
 
 export const LOCAL_KEYWORDS = [
-  "landing page Niterói",
-  "criação de sites RJ",
-  "página de vendas Rio",
-  "criação landing page",
-  "página vendas alta conversão",
-  "site profissional barato"
+  "landing page alta conversão",
+  "criação de landing pages",
+  "página de vendas profissional",
+  "design brutalista web",
+  "landing page para infoproduto",
+  "estúdio digital de conversão"
 ];
 
 export const NAV_LINKS = [

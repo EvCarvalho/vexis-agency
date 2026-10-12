@@ -16,7 +16,7 @@ export const FinalCta: React.FC = () => {
           </h2>
 
           <p className="text-xl md:text-2xl font-mono text-gray-300 mb-8">
-            Planos a partir de <span className="font-bold text-black bg-neon px-2 py-1">R$ 259</span>
+            Planos a partir de <span className="font-bold text-black bg-neon px-2 py-1">R$ 690</span>
           </p>
 
           <div className="flex justify-center">

@@ -27,24 +27,23 @@ export const Hero: React.FC = () => {
           {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black uppercase leading-[0.85] tracking-tighter text-white mb-6">
             Landing Pages <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon to-white">de Alta Conversão</span> no
-            <span className="block mt-2 text-neon md:text-white md:hover:text-neon transition-colors duration-300">Rio de Janeiro</span>
-            <span className="text-4xl md:text-6xl lg:text-7xl block mt-4 border-l-8 border-neon pl-6">
-              Niterói & Brasil
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon to-white">de Alta Conversão</span>
+            <span className="block mt-2 text-neon md:text-white md:hover:text-neon transition-colors duration-300">Construídas para Vender</span>
+            <span className="text-3xl md:text-5xl lg:text-6xl block mt-4 border-l-8 border-neon pl-6 text-gray-200">
+              Brasil & Exterior
             </span>
           </h1>
 
           {/* Subheadline & Offer */}
           <div className="flex flex-col md:flex-row md:items-end gap-8 mb-12">
             <p className="text-lg md:text-xl text-gray-300 font-mono max-w-xl leading-relaxed">
-              Crie landing pages que vendem: rápida, mobile-first, otimizada para Google.
-              Tudo o que você precisa para dominar o mercado local e digital.
+              Crie landing pages que vendem: rápida, mobile-first e projetada para transformar tráfego em faturamento e autoridade instantânea.
             </p>
 
             <div className="bg-white/5 backdrop-blur-sm border border-white/20 p-4 md:ml-auto transform rotate-1 hover:rotate-0 transition-transform duration-300">
               <span className="block text-sm text-gray-400 font-mono uppercase">Domínio Grátis</span>
               <span className="block text-[10px] text-gray-500 font-mono uppercase mb-1">A partir de</span>
-              <span className="block text-4xl font-bold text-neon">R$ 259</span>
+              <span className="block text-4xl font-bold text-neon">R$ 690</span>
             </div>
           </div>
 

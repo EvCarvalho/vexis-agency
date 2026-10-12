@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
             <a href="#" className="hover:text-neon transition-colors">Termos</a>
             <a href="#" className="hover:text-neon transition-colors">Privacidade</a>
           </div>
-          <span className="text-white text-right">Atendemos Niterói, Rio de Janeiro</span>
+          <span className="text-white text-right">Atendimento Global • Brasil e Exterior</span>
         </div>
       </div>
     </footer>
